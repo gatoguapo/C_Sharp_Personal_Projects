@@ -1,0 +1,26 @@
+C:\Users\victo\source\repos\Newsletter Project\Front\obj\Debug\Front.csproj.AssemblyReference.cache
+C:\Users\victo\source\repos\Newsletter Project\Front\obj\Debug\Front.MainPage.resources
+C:\Users\victo\source\repos\Newsletter Project\Front\obj\Debug\Front.csproj.GenerateResource.cache
+C:\Users\victo\source\repos\Newsletter Project\Front\bin\Debug\Front.exe.config
+C:\Users\victo\source\repos\Newsletter Project\Front\bin\Debug\Front.exe
+C:\Users\victo\source\repos\Newsletter Project\Front\bin\Debug\Front.pdb
+C:\Users\victo\source\repos\Newsletter Project\Front\obj\Debug\Front.Properties.Resources.resources
+C:\Users\victo\source\repos\Newsletter Project\Front\obj\Debug\Front.csproj.CoreCompileInputs.cache
+C:\Users\victo\source\repos\Newsletter Project\Front\obj\Debug\Front.exe
+C:\Users\victo\source\repos\Newsletter Project\Front\obj\Debug\Front.pdb
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\bin\Debug\Front.exe.config
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\bin\Debug\Front.exe
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\bin\Debug\Front.pdb
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\obj\Debug\Front.csprojAssemblyReference.cache
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\obj\Debug\Front.MainPage.resources
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\obj\Debug\Front.Properties.Resources.resources
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\obj\Debug\Front.csproj.GenerateResource.cache
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\obj\Debug\Front.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\obj\Debug\Front.exe
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\obj\Debug\Front.pdb
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\bin\Debug\Guna.UI2.dll
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\obj\Debug\Front.csproj.CopyComplete
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\bin\Debug\Negocio.dll
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\bin\Debug\Entidades.dll
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\bin\Debug\Negocio.pdb
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\bin\Debug\Entidades.pdb

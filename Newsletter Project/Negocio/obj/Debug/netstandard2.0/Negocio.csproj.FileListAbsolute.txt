@@ -1,0 +1,24 @@
+C:\Users\victo\source\repos\Newsletter Project\Negocio\bin\Debug\netstandard2.0\Negocio.deps.json
+C:\Users\victo\source\repos\Newsletter Project\Negocio\bin\Debug\netstandard2.0\Negocio.dll
+C:\Users\victo\source\repos\Newsletter Project\Negocio\bin\Debug\netstandard2.0\Negocio.pdb
+C:\Users\victo\source\repos\Newsletter Project\Negocio\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\victo\source\repos\Newsletter Project\Negocio\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\victo\source\repos\Newsletter Project\Negocio\obj\Debug\netstandard2.0\Negocio.csproj.AssemblyReference.cache
+C:\Users\victo\source\repos\Newsletter Project\Negocio\obj\Debug\netstandard2.0\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\victo\source\repos\Newsletter Project\Negocio\obj\Debug\netstandard2.0\Negocio.AssemblyInfoInputs.cache
+C:\Users\victo\source\repos\Newsletter Project\Negocio\obj\Debug\netstandard2.0\Negocio.AssemblyInfo.cs
+C:\Users\victo\source\repos\Newsletter Project\Negocio\obj\Debug\netstandard2.0\Negocio.csproj.CopyComplete
+C:\Users\victo\source\repos\Newsletter Project\Negocio\obj\Debug\netstandard2.0\Negocio.dll
+C:\Users\victo\source\repos\Newsletter Project\Negocio\obj\Debug\netstandard2.0\Negocio.pdb
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Negocio\bin\Debug\netstandard2.0\Negocio.deps.json
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Negocio\bin\Debug\netstandard2.0\Negocio.dll
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Negocio\bin\Debug\netstandard2.0\Negocio.pdb
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Negocio\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Negocio\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Negocio\obj\Debug\netstandard2.0\Negocio.csprojAssemblyReference.cache
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Negocio\obj\Debug\netstandard2.0\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Negocio\obj\Debug\netstandard2.0\Negocio.AssemblyInfoInputs.cache
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Negocio\obj\Debug\netstandard2.0\Negocio.AssemblyInfo.cs
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Negocio\obj\Debug\netstandard2.0\Negocio.csproj.CopyComplete
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Negocio\obj\Debug\netstandard2.0\Negocio.dll
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Negocio\obj\Debug\netstandard2.0\Negocio.pdb

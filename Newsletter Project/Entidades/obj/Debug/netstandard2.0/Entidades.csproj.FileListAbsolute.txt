@@ -1,0 +1,18 @@
+C:\Users\victo\source\repos\Newsletter Project\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\victo\source\repos\Newsletter Project\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\victo\source\repos\Newsletter Project\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\victo\source\repos\Newsletter Project\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+C:\Users\victo\source\repos\Newsletter Project\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+C:\Users\victo\source\repos\Newsletter Project\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\victo\source\repos\Newsletter Project\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\victo\source\repos\Newsletter Project\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+C:\Users\victo\source\repos\Newsletter Project\Entidades\obj\Debug\netstandard2.0\Entidades.pdb
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Entidades\obj\Debug\netstandard2.0\Entidades.csprojAssemblyReference.cache
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Entidades\obj\Debug\netstandard2.0\Entidades.pdb

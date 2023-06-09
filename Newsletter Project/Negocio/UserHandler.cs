@@ -1,0 +1,29 @@
+﻿using Entidades;
+using System.Collections.Generic;
+
+namespace Negocio
+{
+    public class UserHandler
+    {
+        private List<User> userList = new List<User>();
+
+        public void addUser(string username, string password, string email)
+        {
+            userList.Add(new User(username, password, email));
+        }
+        public bool validateUniqueUsername(string username)
+        {
+            bool validate = userList.Exists(usr => usr.pUsername.Equals(username));
+            return validate;
+        }
+        public bool validateUniqueEmail(string email)
+        {
+            bool validate = userList.Exists(usr => usr.pEmail.Equals(email));
+            return validate;
+        }
+        public List<User> getUserList()
+        {
+            return userList;
+        }
+    }
+}

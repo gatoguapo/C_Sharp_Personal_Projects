@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YOAbOqw/yL7LpXp8Svx0oizhZbcTY08vgEyYH/ge1drUWuC7/Ozw6G3VlcSEdT7ofiqACDODQ7jBQqYaT/maiQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\victo\\source\\repos\\Newsletter Project\\Negocio\\Negocio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
