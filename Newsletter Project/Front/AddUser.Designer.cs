@@ -117,13 +117,15 @@
             this.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPassword.IconLeft = global::Front.Properties.Resources.password_icon;
             this.txtPassword.Location = new System.Drawing.Point(118, 226);
+            this.txtPassword.MaxLength = 15;
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.PasswordChar = '.';
+            this.txtPassword.PasswordChar = '●';
             this.txtPassword.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(4)))), ((int)(((byte)(115)))));
             this.txtPassword.PlaceholderText = "Write your password here...";
             this.txtPassword.SelectedText = "";
             this.txtPassword.Size = new System.Drawing.Size(194, 28);
             this.txtPassword.TabIndex = 14;
+            this.txtPassword.UseSystemPasswordChar = true;
             this.txtPassword.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPassword_KeyPress);
             this.txtPassword.Validating += new System.ComponentModel.CancelEventHandler(this.txtPassword_Validating);
             // 
@@ -183,6 +185,7 @@
             this.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.IconLeft = global::Front.Properties.Resources.email_icon;
             this.txtEmail.Location = new System.Drawing.Point(118, 169);
+            this.txtEmail.MaxLength = 20;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.PasswordChar = '\0';
             this.txtEmail.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(4)))), ((int)(((byte)(115)))));
@@ -210,6 +213,7 @@
             this.txtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtUsername.IconLeft = global::Front.Properties.Resources.usuario_icono;
             this.txtUsername.Location = new System.Drawing.Point(118, 112);
+            this.txtUsername.MaxLength = 20;
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.PasswordChar = '\0';
             this.txtUsername.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(4)))), ((int)(((byte)(115)))));

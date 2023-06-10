@@ -82,15 +82,29 @@ namespace Front
             if (string.IsNullOrEmpty(password))
             {
                 errorP.SetError(txtPassword, "You must enter a password");
-                txtUsername.Focus();
+                txtPassword.Focus();
                 return false;
             }
             return true;
         }
 
+        public bool minLengthPasswordValidated()
+        {
+            string password = txtPassword.Text;
+            if (password.Length < 5)
+            {
+                errorP.SetError(txtPassword, "Your password must be at least 5 characters long");
+                txtPassword.Focus();
+                return false;
+            }
+            return true;
+
+        }
+
         private void txtPassword_Validating(object sender, CancelEventArgs e)
         {
             emptyPasswordValidated();
+            minLengthPasswordValidated();
         }
 
         private void txtPassword_KeyPress(object sender, KeyPressEventArgs e)
