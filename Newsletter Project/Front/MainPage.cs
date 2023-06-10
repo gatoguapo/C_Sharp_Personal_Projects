@@ -22,5 +22,16 @@ namespace Front
         {
             Close();
         }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            AddUser frmAddUser = new AddUser();
+            frmAddUser.ShowDialog();
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

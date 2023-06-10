@@ -40,6 +40,9 @@ namespace Front
             this.lblList3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnLogIn = new Guna.UI2.WinForms.Guna2Button();
             this.btnRegister = new Guna.UI2.WinForms.Guna2Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorP = new System.Windows.Forms.ErrorProvider(this.components);
+            this.btnClose = new Guna.UI2.WinForms.Guna2Button();
             this.pictureCatIcon = new Guna.UI2.WinForms.Guna2PictureBox();
             this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
@@ -47,16 +50,13 @@ namespace Front
             this.crclPic2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.crclPic1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.pictureLobby = new System.Windows.Forms.PictureBox();
-            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.errorP = new System.Windows.Forms.ErrorProvider(this.components);
-            this.btnClose = new Guna.UI2.WinForms.Guna2Button();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureCatIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.crclPic3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.crclPic2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.crclPic1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureLobby)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errorP)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -136,7 +136,7 @@ namespace Front
             this.btnLogIn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(123)))), ((int)(((byte)(252)))));
             this.btnLogIn.Font = new System.Drawing.Font("Segoe UI Emoji", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnLogIn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(195)))), ((int)(((byte)(3)))));
-            this.btnLogIn.Location = new System.Drawing.Point(40, 358);
+            this.btnLogIn.Location = new System.Drawing.Point(63, 358);
             this.btnLogIn.Name = "btnLogIn";
             this.btnLogIn.Size = new System.Drawing.Size(141, 39);
             this.btnLogIn.TabIndex = 13;
@@ -156,11 +156,40 @@ namespace Front
             this.btnRegister.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(123)))), ((int)(((byte)(252)))));
             this.btnRegister.Font = new System.Drawing.Font("Segoe UI Emoji", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegister.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(195)))), ((int)(((byte)(3)))));
-            this.btnRegister.Location = new System.Drawing.Point(40, 416);
+            this.btnRegister.Location = new System.Drawing.Point(63, 416);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(141, 39);
             this.btnRegister.TabIndex = 16;
             this.btnRegister.Text = "Register";
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
+            // errorP
+            // 
+            this.errorP.ContainerControl = this;
+            // 
+            // btnClose
+            // 
+            this.btnClose.Animated = true;
+            this.btnClose.BackColor = System.Drawing.Color.White;
+            this.btnClose.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(124)))), ((int)(((byte)(232)))));
+            this.btnClose.BorderRadius = 10;
+            this.btnClose.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnClose.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnClose.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnClose.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnClose.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(123)))), ((int)(((byte)(252)))));
+            this.btnClose.Font = new System.Drawing.Font("Segoe UI Emoji", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(195)))), ((int)(((byte)(3)))));
+            this.btnClose.Location = new System.Drawing.Point(273, 416);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(137, 39);
+            this.btnClose.TabIndex = 17;
+            this.btnClose.Text = "Exit";
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // pictureCatIcon
             // 
@@ -188,7 +217,7 @@ namespace Front
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPassword.IconLeft = global::Front.Properties.Resources.password_icon;
-            this.txtPassword.Location = new System.Drawing.Point(21, 310);
+            this.txtPassword.Location = new System.Drawing.Point(44, 310);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '●';
             this.txtPassword.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(4)))), ((int)(((byte)(115)))));
@@ -214,7 +243,7 @@ namespace Front
             this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtUsername.IconLeft = global::Front.Properties.Resources.usuario_icono;
-            this.txtUsername.Location = new System.Drawing.Point(21, 263);
+            this.txtUsername.Location = new System.Drawing.Point(44, 263);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.PasswordChar = '\0';
             this.txtUsername.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(4)))), ((int)(((byte)(115)))));
@@ -222,6 +251,7 @@ namespace Front
             this.txtUsername.SelectedText = "";
             this.txtUsername.Size = new System.Drawing.Size(175, 29);
             this.txtUsername.TabIndex = 11;
+            this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
             // crclPic3
             // 
@@ -269,34 +299,6 @@ namespace Front
             this.pictureLobby.TabIndex = 2;
             this.pictureLobby.TabStop = false;
             // 
-            // errorProvider1
-            // 
-            this.errorProvider1.ContainerControl = this;
-            // 
-            // errorP
-            // 
-            this.errorP.ContainerControl = this;
-            // 
-            // btnClose
-            // 
-            this.btnClose.Animated = true;
-            this.btnClose.BackColor = System.Drawing.Color.White;
-            this.btnClose.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(124)))), ((int)(((byte)(232)))));
-            this.btnClose.BorderRadius = 10;
-            this.btnClose.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnClose.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnClose.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnClose.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnClose.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(123)))), ((int)(((byte)(252)))));
-            this.btnClose.Font = new System.Drawing.Font("Segoe UI Emoji", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(195)))), ((int)(((byte)(3)))));
-            this.btnClose.Location = new System.Drawing.Point(273, 425);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(137, 30);
-            this.btnClose.TabIndex = 17;
-            this.btnClose.Text = "Exit";
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -323,13 +325,13 @@ namespace Front
             this.Name = "MainPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorP)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureCatIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.crclPic3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.crclPic2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.crclPic1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureLobby)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errorP)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
