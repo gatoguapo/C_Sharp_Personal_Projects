@@ -1,19 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Negocio;
+using System;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Front
 {
     public partial class AddUser : Form
     {
-        public AddUser()
+        private UserHandler userHandler;
+        public AddUser(UserHandler userHandler)
         {
+            this.userHandler = userHandler;
             InitializeComponent();
         }
 
@@ -25,7 +22,7 @@ namespace Front
         private void txtEmail_KeyPress(object sender, KeyPressEventArgs e)
         {
             errorP.Clear();
-            if (!char.IsLetter(e.KeyChar) && !char.IsNumber(e.KeyChar) && e.KeyChar != (char)Keys.Back && e.KeyChar != '.' && e.KeyChar != '-' && e.KeyChar != '_' && e.KeyChar != '#' && e.KeyChar != '@')
+            if (!char.IsLetter(e.KeyChar) && !char.IsNumber(e.KeyChar) && e.KeyChar != (char)Keys.Back && e.KeyChar != '.' && e.KeyChar != '-' && e.KeyChar != '_' && e.KeyChar != '@')
             {
                 errorP.SetError(txtEmail, "You can't enter special characters");
                 e.Handled = true;
@@ -52,7 +49,7 @@ namespace Front
         private void txtUsername_KeyPress(object sender, KeyPressEventArgs e)
         {
             errorP.Clear();
-            if (!char.IsLetter(e.KeyChar) && !char.IsNumber(e.KeyChar) && e.KeyChar != (char)Keys.Back && e.KeyChar != '.' && e.KeyChar != '-' && e.KeyChar != '_' && e.KeyChar != '#' && e.KeyChar != '!')
+            if (!char.IsLetter(e.KeyChar) && !char.IsNumber(e.KeyChar) && e.KeyChar != (char)Keys.Back && e.KeyChar != '.' && e.KeyChar != '-' && e.KeyChar != '_')
             {
                 errorP.SetError(txtUsername, "You can't enter special characters");
                 e.Handled = true;
@@ -115,6 +112,34 @@ namespace Front
                 errorP.SetError(txtUsername, "You can't enter a blank space");
                 e.Handled = true;
             }
+        }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            if (!emptyUsernameValidated()) return;
+            if (!emptyEmailValidated()) return;
+            if (!emptyPasswordValidated()) return;
+            if (!minLengthPasswordValidated()) return;
+            string username = txtUsername.Text;
+            string email = txtEmail.Text;
+            string password = txtPassword.Text;
+            if (userHandler.validateUniqueUsername(username))
+            {
+                msgDlgError.Caption = "ERROR";
+                msgDlgError.Text = "That username is already taken, try another";
+                msgDlgError.Show();
+                return;
+            }
+            if (userHandler.validateUniqueEmail(email))
+            {
+                msgDlgError.Caption = "ERROR";
+                msgDlgError.Text = "That email is already registered";
+                msgDlgError.Show();
+                return;
+            }
+            userHandler.addUser(username, password, email);
+            msgDlgInfo.Caption = "Successfully registered";
+            msgDlgInfo.Show();
         }
     }
 }

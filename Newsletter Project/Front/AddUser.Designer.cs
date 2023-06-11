@@ -46,6 +46,8 @@
             this.guna2CircleButton5 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.errorP = new System.Windows.Forms.ErrorProvider(this.components);
+            this.msgDlgError = new Guna.UI2.WinForms.Guna2MessageDialog();
+            this.msgDlgInfo = new Guna.UI2.WinForms.Guna2MessageDialog();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorP)).BeginInit();
             this.SuspendLayout();
@@ -147,6 +149,7 @@
             this.btnRegister.Size = new System.Drawing.Size(141, 39);
             this.btnRegister.TabIndex = 15;
             this.btnRegister.Text = "Register";
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // btnExit
             // 
@@ -185,7 +188,7 @@
             this.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.IconLeft = global::Front.Properties.Resources.email_icon;
             this.txtEmail.Location = new System.Drawing.Point(118, 169);
-            this.txtEmail.MaxLength = 20;
+            this.txtEmail.MaxLength = 40;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.PasswordChar = '\0';
             this.txtEmail.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(4)))), ((int)(((byte)(115)))));
@@ -315,6 +318,24 @@
             // 
             this.errorP.ContainerControl = this;
             // 
+            // msgDlgError
+            // 
+            this.msgDlgError.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            this.msgDlgError.Caption = null;
+            this.msgDlgError.Icon = Guna.UI2.WinForms.MessageDialogIcon.Error;
+            this.msgDlgError.Parent = null;
+            this.msgDlgError.Style = Guna.UI2.WinForms.MessageDialogStyle.Light;
+            this.msgDlgError.Text = null;
+            // 
+            // msgDlgInfo
+            // 
+            this.msgDlgInfo.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            this.msgDlgInfo.Caption = null;
+            this.msgDlgInfo.Icon = Guna.UI2.WinForms.MessageDialogIcon.Information;
+            this.msgDlgInfo.Parent = null;
+            this.msgDlgInfo.Style = Guna.UI2.WinForms.MessageDialogStyle.Light;
+            this.msgDlgInfo.Text = null;
+            // 
             // AddUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -366,5 +387,7 @@
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton4;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton3;
         private System.Windows.Forms.ErrorProvider errorP;
+        private Guna.UI2.WinForms.Guna2MessageDialog msgDlgError;
+        private Guna.UI2.WinForms.Guna2MessageDialog msgDlgInfo;
     }
 }

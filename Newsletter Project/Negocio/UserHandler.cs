@@ -1,5 +1,6 @@
-﻿using Entidades;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System;
+using Entidades;
 
 namespace Negocio
 {

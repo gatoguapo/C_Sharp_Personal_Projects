@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Negocio;
+using System;
 using System.Windows.Forms;
 
 namespace Front
@@ -13,7 +14,8 @@ namespace Front
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainPage());
+            UserHandler userHandler = new UserHandler();
+            Application.Run(new MainPage(userHandler));
         }
     }
 }

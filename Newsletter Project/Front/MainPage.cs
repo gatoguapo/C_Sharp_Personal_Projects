@@ -7,9 +7,10 @@ namespace Front
 {
     public partial class MainPage : Form
     {
-        private UserHandler handler; 
-        public MainPage()
+        private UserHandler userHandler; 
+        public MainPage(UserHandler userHandler)
         {
+            this.userHandler = userHandler;
             InitializeComponent();
         }
 
@@ -25,7 +26,7 @@ namespace Front
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            AddUser frmAddUser = new AddUser();
+            AddUser frmAddUser = new AddUser(userHandler);
             frmAddUser.ShowDialog();
         }
 
