@@ -1,6 +1,7 @@
 ﻿using Negocio;
 using System;
 using System.ComponentModel;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace Front
@@ -44,6 +45,13 @@ namespace Front
         private void txtEmail_Validating(object sender, CancelEventArgs e)
         {
             emptyEmailValidated();
+            string email = txtEmail.Text;
+            if (!domainPasswordValidated(email))
+            {
+                errorP.SetError(txtEmail, "The domain is not valid");
+                txtEmail.Focus();
+                return;
+            }
         }
 
         private void txtUsername_KeyPress(object sender, KeyPressEventArgs e)
@@ -71,6 +79,14 @@ namespace Front
         private void txtUsername_Validating(object sender, CancelEventArgs e)
         {
             emptyUsernameValidated();
+        }
+
+        public bool domainPasswordValidated(string email)
+        {
+            string dominiosValidos = @"\.com$|\.org$|\.net$|\.edu$";
+            Regex regex = new Regex(dominiosValidos);
+
+            return regex.IsMatch(email);
         }
 
         public bool emptyPasswordValidated()
@@ -123,6 +139,12 @@ namespace Front
             string username = txtUsername.Text;
             string email = txtEmail.Text;
             string password = txtPassword.Text;
+            if (!domainPasswordValidated(email))
+            {
+                errorP.SetError(txtEmail, "The domain is not valid");
+                txtEmail.Focus();
+                return;
+            }
             if (userHandler.validateUniqueUsername(username))
             {
                 msgDlgError.Caption = "ERROR";
