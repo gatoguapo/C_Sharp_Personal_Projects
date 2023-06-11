@@ -25,3 +25,5 @@ C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front
 C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\bin\Debug\Negocio.pdb
 C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\bin\Debug\Entidades.pdb
 C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\obj\Debug\Front.AddUser.resources
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\bin\Debug\Services.dll
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\bin\Debug\Services.pdb

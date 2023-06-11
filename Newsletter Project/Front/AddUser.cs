@@ -1,4 +1,5 @@
 ﻿using Negocio;
+using Services;
 using System;
 using System.ComponentModel;
 using System.Text.RegularExpressions;
@@ -30,27 +31,23 @@ namespace Front
             }
         }
 
-        public bool emptyEmailValidated()
-        {
-            string email = txtEmail.Text;
-            if(string.IsNullOrEmpty(email))
-            {
-                errorP.SetError(txtEmail, "You must enter an email");
-                txtEmail.Focus();
-                return false;
-            }
-            return true;
-        }
-
         private void txtEmail_Validating(object sender, CancelEventArgs e)
         {
-            emptyEmailValidated();
             string email = txtEmail.Text;
-            if (!domainPasswordValidated(email))
+            if (Validations.emptyTxt(email))
+            {
+                errorP.SetError(txtEmail, "You can't leave this data empty");
+                txtEmail.Focus();
+            }
+            if (Validations.emailFormatValidation(email).Equals(1))
+            {
+                errorP.SetError(txtEmail, $"Email must have {"@"} character");
+                txtEmail.Focus();
+            }
+            if (Validations.emailFormatValidation(email).Equals(2))
             {
                 errorP.SetError(txtEmail, "The domain is not valid");
                 txtEmail.Focus();
-                return;
             }
         }
 
@@ -64,60 +61,29 @@ namespace Front
             }
         }
 
-        public bool emptyUsernameValidated()
-        {
-            string username = txtUsername.Text;
-            if (string.IsNullOrEmpty(username))
-            {
-                errorP.SetError(txtUsername, "You must enter an username");
-                txtUsername.Focus();
-                return false;
-            }
-            return true;
-        }
-
         private void txtUsername_Validating(object sender, CancelEventArgs e)
         {
-            emptyUsernameValidated();
-        }
-
-        public bool domainPasswordValidated(string email)
-        {
-            string dominiosValidos = @"\.com$|\.org$|\.net$|\.edu$";
-            Regex regex = new Regex(dominiosValidos);
-
-            return regex.IsMatch(email);
-        }
-
-        public bool emptyPasswordValidated()
-        {
-            string password = txtPassword.Text;
-            if (string.IsNullOrEmpty(password))
+            string username = txtUsername.Text;
+            if (Validations.emptyTxt(username))
             {
-                errorP.SetError(txtPassword, "You must enter a password");
-                txtPassword.Focus();
-                return false;
+                errorP.SetError(txtUsername, "You can't leave this data empty");
+                txtUsername.Focus();
             }
-            return true;
-        }
-
-        public bool minLengthPasswordValidated()
-        {
-            string password = txtPassword.Text;
-            if (password.Length < 5)
-            {
-                errorP.SetError(txtPassword, "Your password must be at least 5 characters long");
-                txtPassword.Focus();
-                return false;
-            }
-            return true;
-
         }
 
         private void txtPassword_Validating(object sender, CancelEventArgs e)
         {
-            emptyPasswordValidated();
-            minLengthPasswordValidated();
+            string password = txtPassword.Text;
+            if (Validations.emptyTxt(password))
+            {
+                errorP.SetError(txtPassword, "You can't leave this data empty");
+                txtPassword.Focus();
+            }
+            if(Validations.minLengthPasswordValidated(password))
+            {
+                errorP.SetError(txtPassword, "The password length must be at least 5 characters long");
+                txtPassword.Focus();
+            }
         }
 
         private void txtPassword_KeyPress(object sender, KeyPressEventArgs e)
@@ -132,14 +98,40 @@ namespace Front
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            if (!emptyUsernameValidated()) return;
-            if (!emptyEmailValidated()) return;
-            if (!emptyPasswordValidated()) return;
-            if (!minLengthPasswordValidated()) return;
             string username = txtUsername.Text;
             string email = txtEmail.Text;
             string password = txtPassword.Text;
-            if (!domainPasswordValidated(email))
+            if (Validations.emptyTxt(username))
+            {
+                errorP.SetError(txtUsername, "You can't leave this data empty");
+                txtUsername.Focus();
+                return;
+            }
+            if (Validations.emptyTxt(email))
+            {
+                errorP.SetError(txtEmail, "You can't leave this data empty");
+                txtEmail.Focus();
+                return;
+            }
+            if (Validations.emptyTxt(password))
+            {
+                errorP.SetError(txtPassword, "You can't leave this data empty");
+                txtPassword.Focus();
+                return;
+            }
+            if (Validations.minLengthPasswordValidated(password))
+            {
+                errorP.SetError(txtPassword, "The password length must be at least 5 characters long");
+                txtPassword.Focus();
+                return;
+            }
+            if (Validations.emailFormatValidation(email).Equals(1))
+            {
+                errorP.SetError(txtEmail, $"Email must have {"@"} character");
+                txtEmail.Focus();
+                return;
+            }
+            if (Validations.emailFormatValidation(email).Equals(2))
             {
                 errorP.SetError(txtEmail, "The domain is not valid");
                 txtEmail.Focus();

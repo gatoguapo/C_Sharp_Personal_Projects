@@ -7,22 +7,29 @@ namespace Services
 {
     public class Validations
     {
-        public bool emptyTxt(string txt)
+        public static bool emptyTxt(string txt)
         {
             return string.IsNullOrEmpty(txt);
         }
 
-        public bool domainEmailValidation(string email)
+        public static int emailFormatValidation(string email)
         {
             string dominiosValidos = @"\.com$|\.org$|\.net$|\.edu$";
             Regex regex = new Regex(dominiosValidos);
-
-            return regex.IsMatch(email);
+            if (!email.Contains("@"))
+            {
+                return 1;
+            }
+            if (!regex.IsMatch(email))
+            {
+                return 2;
+            }
+            return 0;
         }
 
-        public bool minLengthPasswordValidated(string password)
+        public static bool minLengthPasswordValidated(string password)
         {
-            return password.Length >= 5;
+            return password.Length < 5;
         }
     }
 }

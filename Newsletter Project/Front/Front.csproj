@@ -119,6 +119,10 @@
       <Project>{7ff0d418-83b5-4ff0-bb14-e6b3c3c5ff7b}</Project>
       <Name>Negocio</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Services\Services.csproj">
+      <Project>{996300C4-EFCB-4FF8-BD92-CAD22201A8AB}</Project>
+      <Name>Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\gato_logo1.png" />
