@@ -148,14 +148,14 @@ namespace Front
             if (userHandler.validateUniqueUsername(username))
             {
                 msgDlgError.Caption = "ERROR";
-                msgDlgError.Text = "That username is already taken, try another";
+                msgDlgError.Text = "This username is already taken, try another";
                 msgDlgError.Show();
                 return;
             }
             if (userHandler.validateUniqueEmail(email))
             {
                 msgDlgError.Caption = "ERROR";
-                msgDlgError.Text = "That email is already registered";
+                msgDlgError.Text = "This email is already registered";
                 msgDlgError.Show();
                 return;
             }
