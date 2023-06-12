@@ -17,7 +17,25 @@ namespace Front
 
         private void btnLogIn_Click(object sender, EventArgs e)
         {
-           
+            string username = txtUsername.Text;
+            string password = txtPassword.Text;
+            if (Validations.emptyTxt(username))
+            {
+                errorP.SetError(txtUsername, "You can't leave this data empty");
+                txtUsername.Focus();
+                return;
+            }
+            if (Validations.emptyTxt(password))
+            {
+                errorP.SetError(txtPassword, "You can't leave this data empty");
+                txtPassword.Focus();
+            }
+            if (Validations.minLengthPasswordValidated(password))
+            {
+                errorP.SetError(txtPassword, "The password length must be at least 5 characters long");
+                txtPassword.Focus();
+            }
+
         }
 
         private void btnClose_Click(object sender, EventArgs e)
