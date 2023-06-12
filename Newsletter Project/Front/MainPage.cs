@@ -2,6 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 using Negocio;
+using Services;
 
 namespace Front
 {
@@ -37,19 +38,12 @@ namespace Front
 
         private void txtUsername_Validating(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            emptyUsernameValidated();
-        }
-
-        public bool emptyUsernameValidated()
-        {
             string username = txtUsername.Text;
-            if (string.IsNullOrEmpty(username))
+            if (Validations.emptyTxt(username))
             {
-                errorP.SetError(txtUsername, "You must enter an username");
+                errorP.SetError(txtUsername, "You can't leave this data empty");
                 txtUsername.Focus();
-                return false;
             }
-            return true;
         }
 
         private void txtUsername_KeyPress(object sender, KeyPressEventArgs e)
@@ -57,38 +51,13 @@ namespace Front
             errorP.Clear();
             if (!char.IsLetter(e.KeyChar) && !char.IsNumber(e.KeyChar) && e.KeyChar != (char)Keys.Back && e.KeyChar != '.' && e.KeyChar != '-' && e.KeyChar != '_' && e.KeyChar != '@')
             {
-                errorP.SetError(txtUsername, "You can't enter special characters");
+                errorP.SetError(txtUsername, "You can't enter that character");
                 e.Handled = true;
             }
         }
 
         private void txtPassword_TextChanged(object sender, EventArgs e)
         {
-
-        }
-
-        public bool emptyPasswordValidated()
-        {
-            string password = txtPassword.Text;
-            if (string.IsNullOrEmpty(password))
-            {
-                errorP.SetError(txtPassword, "You must enter a password");
-                txtPassword.Focus();
-                return false;
-            }
-            return true;
-        }
-
-        public bool minLengthPasswordValidated()
-        {
-            string password = txtPassword.Text;
-            if (password.Length < 5)
-            {
-                errorP.SetError(txtPassword, "Your password must be at least 5 characters long");
-                txtPassword.Focus();
-                return false;
-            }
-            return true;
 
         }
 
@@ -104,8 +73,17 @@ namespace Front
 
         private void txtPassword_Validating(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            emptyPasswordValidated();
-            minLengthPasswordValidated();
+            string password = txtPassword.Text;
+            if (Validations.emptyTxt(password))
+            {
+                errorP.SetError(txtPassword, "You can't leave this data empty");
+                txtPassword.Focus();
+            }
+            if (Validations.minLengthPasswordValidated(password))
+            {
+                errorP.SetError(txtPassword, "The password length must be at least 5 characters long");
+                txtPassword.Focus();
+            }
         }
     }
 }
