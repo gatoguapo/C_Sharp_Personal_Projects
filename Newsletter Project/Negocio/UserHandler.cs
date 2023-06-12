@@ -32,7 +32,18 @@ namespace Negocio
 
         public bool searchUser(string user)
         {
-            bool search = userList.Exists(usr => usr.pUsername.Equals(user) || usr.pEmail.Equals(user));
+            bool search;
+            search = userList.Exists(usr => usr.pUsername.Equals(user) || usr.pEmail.Equals(user));
+            return search;
+        }
+
+        public bool searchUserPassword (string user, string password)
+        {
+            bool search;
+            search = userList.Exists(usr => 
+                (usr.pUsername.Equals(user) && usr.pPassword.Equals(password)) || 
+                (usr.pEmail.Equals(user) && usr.pPassword.Equals(password))
+            );
             return search;
         }
     }

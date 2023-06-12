@@ -44,7 +44,14 @@ namespace Front
                 msgDlgError.Show();
                 return;
             }
-            msgDlgInfo.Caption = "User found succesfully";
+            if (!userHandler.searchUserPassword(username, password))
+            {
+                msgDlgError.Caption = "ERROR";
+                msgDlgError.Text = "Invalid Password!";
+                msgDlgError.Show();
+                return;
+            }
+            msgDlgInfo.Caption = "Log in succesfull";
             msgDlgInfo.Show();
         }
 
