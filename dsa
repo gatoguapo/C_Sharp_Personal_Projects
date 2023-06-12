@@ -1,0 +1,35 @@
+[33mcommit 66ca0924599300a7bb967a7bd3866a2f3276e44a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: gatoguapo <victor._espinoza@hotmail.com>
+Date:   Sat Jun 10 18:03:15 2023 -0700
+
+    AddUser email domain validated
+
+[33mcommit 48ed373193380e92f063b8325d758b81a28c4c0a[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: gatoguapo <victor._espinoza@hotmail.com>
+Date:   Sat Jun 10 17:39:19 2023 -0700
+
+    addUser functionality added
+
+[33mcommit 8d7c5c21f237fe49ca1ee8cc39c5b94573ec748c[m
+Author: gatoguapo <victor._espinoza@hotmail.com>
+Date:   Fri Jun 9 23:55:10 2023 -0700
+
+    MainPage and AddUser validations
+
+[33mcommit 50a0a6b4cd36bd249a340bd2cab7c602202ddd99[m
+Author: gatoguapo <victor._espinoza@hotmail.com>
+Date:   Fri Jun 9 21:41:38 2023 -0700
+
+    frmAddUser username validated
+
+[33mcommit 236d6738fda36ccb993932755397f1fb46a57e17[m
+Author: gatoguapo <victor._espinoza@hotmail.com>
+Date:   Fri Jun 9 17:22:33 2023 -0700
+
+    frmAddUser email validated
+
+[33mcommit d4ee4dcf20ea624926a869d3f3bda7d38e8a9023[m
+Author: gatoguapo <victor._espinoza@hotmail.com>
+Date:   Fri Jun 9 16:57:36 2023 -0700
+
+    frmAddUser created and designed

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\victo\\source\\repos\\Newsletter Project\\Negocio\\Negocio.csproj": {}
+    "C:\\Users\\victo\\OneDrive\\Desktop\\Proyectos Personales C#\\Newsletter Project\\Negocio\\Negocio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\victo\\source\\repos\\Newsletter Project\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\victo\\OneDrive\\Desktop\\Proyectos Personales C#\\Newsletter Project\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victo\\source\\repos\\Newsletter Project\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\victo\\OneDrive\\Desktop\\Proyectos Personales C#\\Newsletter Project\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Users\\victo\\source\\repos\\Newsletter Project\\Entidades\\Entidades.csproj",
+        "projectPath": "C:\\Users\\victo\\OneDrive\\Desktop\\Proyectos Personales C#\\Newsletter Project\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victo\\source\\repos\\Newsletter Project\\Entidades\\obj\\",
+        "outputPath": "C:\\Users\\victo\\OneDrive\\Desktop\\Proyectos Personales C#\\Newsletter Project\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -60,14 +60,14 @@
         }
       }
     },
-    "C:\\Users\\victo\\source\\repos\\Newsletter Project\\Negocio\\Negocio.csproj": {
+    "C:\\Users\\victo\\OneDrive\\Desktop\\Proyectos Personales C#\\Newsletter Project\\Negocio\\Negocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victo\\source\\repos\\Newsletter Project\\Negocio\\Negocio.csproj",
+        "projectUniqueName": "C:\\Users\\victo\\OneDrive\\Desktop\\Proyectos Personales C#\\Newsletter Project\\Negocio\\Negocio.csproj",
         "projectName": "Negocio",
-        "projectPath": "C:\\Users\\victo\\source\\repos\\Newsletter Project\\Negocio\\Negocio.csproj",
+        "projectPath": "C:\\Users\\victo\\OneDrive\\Desktop\\Proyectos Personales C#\\Newsletter Project\\Negocio\\Negocio.csproj",
         "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victo\\source\\repos\\Newsletter Project\\Negocio\\obj\\",
+        "outputPath": "C:\\Users\\victo\\OneDrive\\Desktop\\Proyectos Personales C#\\Newsletter Project\\Negocio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -89,8 +89,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\victo\\source\\repos\\Newsletter Project\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\victo\\source\\repos\\Newsletter Project\\Entidades\\Entidades.csproj"
+              "C:\\Users\\victo\\OneDrive\\Desktop\\Proyectos Personales C#\\Newsletter Project\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\victo\\OneDrive\\Desktop\\Proyectos Personales C#\\Newsletter Project\\Entidades\\Entidades.csproj"
               }
             }
           }

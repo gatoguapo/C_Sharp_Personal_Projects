@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JTejVRqF2DkM4A4QtGTneh64IkcC156K7IybkfHUaIikvS1+meGU45sIQj3KOg+F5N8Pio0/vzABApWVA1ylLw==",
+  "dgSpecHash": "3lm/SSZkx9hdtN4tnS1SbShP5J3mm+4yDOr/RcIg4tSYegqSKqxWhm+yQ1Mv3u9JbhaHU4jH5TmLb+IuhV9u/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\victo\\source\\repos\\Newsletter Project\\Entidades\\Entidades.csproj",
+  "projectFilePath": "C:\\Users\\victo\\OneDrive\\Desktop\\Proyectos Personales C#\\Newsletter Project\\Entidades\\Entidades.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
