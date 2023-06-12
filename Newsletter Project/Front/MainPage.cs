@@ -40,14 +40,14 @@ namespace Front
             if (!userHandler.searchUser(username))
             {
                 msgDlgError.Caption = "ERROR";
-                msgDlgError.Text = "Username or Email not found!";
+                msgDlgError.Text = "The user data provided is incorrect!";
                 msgDlgError.Show();
                 return;
             }
             if (!userHandler.searchUserPassword(username, password))
             {
                 msgDlgError.Caption = "ERROR";
-                msgDlgError.Text = "Invalid Password!";
+                msgDlgError.Text = "The user data provided is incorrect!";
                 msgDlgError.Show();
                 return;
             }
