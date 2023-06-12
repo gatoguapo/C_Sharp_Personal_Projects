@@ -11,7 +11,6 @@ C:\Users\victo\source\repos\Newsletter Project\Front\obj\Debug\Front.pdb
 C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\bin\Debug\Front.exe.config
 C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\bin\Debug\Front.exe
 C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\bin\Debug\Front.pdb
-C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\obj\Debug\Front.csprojAssemblyReference.cache
 C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\obj\Debug\Front.MainPage.resources
 C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\obj\Debug\Front.Properties.Resources.resources
 C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\obj\Debug\Front.csproj.GenerateResource.cache
@@ -27,3 +26,4 @@ C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front
 C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\obj\Debug\Front.AddUser.resources
 C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\bin\Debug\Services.dll
 C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\bin\Debug\Services.pdb
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Newsletter Project\Front\obj\Debug\Front.csproj.AssemblyReference.cache

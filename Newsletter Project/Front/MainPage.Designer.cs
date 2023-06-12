@@ -50,6 +50,8 @@ namespace Front
             this.crclPic2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.crclPic1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.pictureLobby = new System.Windows.Forms.PictureBox();
+            this.msgDlgError = new Guna.UI2.WinForms.Guna2MessageDialog();
+            this.msgDlgInfo = new Guna.UI2.WinForms.Guna2MessageDialog();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureCatIcon)).BeginInit();
@@ -308,6 +310,24 @@ namespace Front
             this.pictureLobby.TabIndex = 2;
             this.pictureLobby.TabStop = false;
             // 
+            // msgDlgError
+            // 
+            this.msgDlgError.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            this.msgDlgError.Caption = null;
+            this.msgDlgError.Icon = Guna.UI2.WinForms.MessageDialogIcon.Error;
+            this.msgDlgError.Parent = null;
+            this.msgDlgError.Style = Guna.UI2.WinForms.MessageDialogStyle.Light;
+            this.msgDlgError.Text = null;
+            // 
+            // msgDlgInfo
+            // 
+            this.msgDlgInfo.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            this.msgDlgInfo.Caption = null;
+            this.msgDlgInfo.Icon = Guna.UI2.WinForms.MessageDialogIcon.Information;
+            this.msgDlgInfo.Parent = null;
+            this.msgDlgInfo.Style = Guna.UI2.WinForms.MessageDialogStyle.Light;
+            this.msgDlgInfo.Text = null;
+            // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -366,5 +386,7 @@ namespace Front
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.ErrorProvider errorP;
         private Guna.UI2.WinForms.Guna2Button btnClose;
+        private Guna.UI2.WinForms.Guna2MessageDialog msgDlgError;
+        private Guna.UI2.WinForms.Guna2MessageDialog msgDlgInfo;
     }
 }

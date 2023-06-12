@@ -29,13 +29,23 @@ namespace Front
             {
                 errorP.SetError(txtPassword, "You can't leave this data empty");
                 txtPassword.Focus();
+                return;
             }
             if (Validations.minLengthPasswordValidated(password))
             {
                 errorP.SetError(txtPassword, "The password length must be at least 5 characters long");
                 txtPassword.Focus();
+                return;
             }
-
+            if (!userHandler.searchUser(username))
+            {
+                msgDlgError.Caption = "ERROR";
+                msgDlgError.Text = "Username or Email not found!";
+                msgDlgError.Show();
+                return;
+            }
+            msgDlgInfo.Caption = "User found succesfully";
+            msgDlgInfo.Show();
         }
 
         private void btnClose_Click(object sender, EventArgs e)

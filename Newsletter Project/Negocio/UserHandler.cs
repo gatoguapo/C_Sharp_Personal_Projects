@@ -12,19 +12,28 @@ namespace Negocio
         {
             userList.Add(new User(username, password, email));
         }
+
         public bool validateUniqueUsername(string username)
         {
             bool validate = userList.Exists(usr => usr.pUsername.Equals(username));
             return validate;
         }
+
         public bool validateUniqueEmail(string email)
         {
             bool validate = userList.Exists(usr => usr.pEmail.Equals(email));
             return validate;
         }
+
         public List<User> getUserList()
         {
             return userList;
+        }
+
+        public bool searchUser(string user)
+        {
+            bool search = userList.Exists(usr => usr.pUsername.Equals(user) || usr.pEmail.Equals(user));
+            return search;
         }
     }
 }
