@@ -155,5 +155,12 @@ namespace Front
             msgDlgInfo.Caption = "Successfully registered";
             msgDlgInfo.Show();
         }
+
+        private void clean()
+        {
+            txtUsername.Clear();
+            txtEmail.Clear();
+            txtPassword.Clear();
+        }
     }
 }
