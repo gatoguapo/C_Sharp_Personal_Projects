@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Front
+namespace Custom_Components
 {
-    public partial class Dashboard : Form
+    public partial class Form1 : Form
     {
-        public Dashboard()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void btnNewMail_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

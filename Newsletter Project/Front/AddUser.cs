@@ -154,6 +154,7 @@ namespace Front
             userHandler.addUser(username, password, email);
             msgDlgInfo.Caption = "Successfully registered";
             msgDlgInfo.Show();
+            clean();
         }
 
         private void clean()
