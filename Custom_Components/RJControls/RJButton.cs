@@ -16,6 +16,43 @@ namespace Custom_Components.RJControls
         private int borderRadius = 40;
         private Color borderColor = Color.PaleVioletRed;
 
+        public int BorderSize 
+        {
+            get 
+            {
+                return borderSize;
+            }
+            set
+            {
+                borderSize = value;
+                this.Invalidate();
+            }
+        }
+        public int BorderRadius 
+        {
+            get
+            {
+                return borderRadius;
+            }
+            set
+            {
+                borderRadius = value;
+                this.Invalidate();
+            }
+        }
+        public Color BorderColor 
+        {
+            get
+            {
+                return borderColor;
+            }
+            set
+            {
+                borderColor = value;
+                this.Invalidate();
+            } 
+        }
+
         //Constructor
         public RJButton()
         {
