@@ -80,16 +80,17 @@ namespace Custom_Components.RJControls
             }
         }
 
+        private void Container_BackColorChanged (object sender, EventArgs e)
+        {
+            if (this.DesignMode)
+                this.Invalidate();
+        }
+
         protected override void OnHandleCreated(EventArgs e)
         {
             base.OnHandleCreated(e);
             this.Parent.BackColorChanged += new EventHandler(Container_BackColorChanged);
         }
 
-        private void Container_BackColorChanged (object sender, EventArgs e)
-        {
-            if (this.DesignMode)
-                this.Invalidate();
-        }
     }
 }
