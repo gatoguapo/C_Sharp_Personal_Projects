@@ -90,7 +90,7 @@ namespace Custom_Components.RJControls
             this.BackColor = Color.MediumSlateBlue;
             this.ForeColor = Color.White;
         }
-
+         
         //Methods
         private GraphicsPath getFigurePath(RectangleF rect, float radius)
         {
