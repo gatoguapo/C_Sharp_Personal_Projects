@@ -33,6 +33,7 @@ namespace Custom_Components
             this.rjButton2 = new Custom_Components.RJControls.RJButton();
             this.rjButton3 = new Custom_Components.RJControls.RJButton();
             this.rjButton4 = new Custom_Components.RJControls.RJButton();
+            this.rjButton5 = new Custom_Components.RJControls.RJButton();
             this.SuspendLayout();
             // 
             // rjButton1
@@ -107,11 +108,30 @@ namespace Custom_Components
             this.rjButton4.TextColor = System.Drawing.Color.White;
             this.rjButton4.UseVisualStyleBackColor = false;
             // 
+            // rjButton5
+            // 
+            this.rjButton5.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjButton5.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjButton5.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjButton5.BorderRadius = 40;
+            this.rjButton5.BorderSize = 0;
+            this.rjButton5.FlatAppearance.BorderSize = 0;
+            this.rjButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton5.ForeColor = System.Drawing.Color.White;
+            this.rjButton5.Location = new System.Drawing.Point(564, 193);
+            this.rjButton5.Name = "rjButton5";
+            this.rjButton5.Size = new System.Drawing.Size(130, 102);
+            this.rjButton5.TabIndex = 5;
+            this.rjButton5.Text = "rjButton5";
+            this.rjButton5.TextColor = System.Drawing.Color.White;
+            this.rjButton5.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.rjButton5);
             this.Controls.Add(this.rjButton4);
             this.Controls.Add(this.rjButton3);
             this.Controls.Add(this.rjButton2);
@@ -128,6 +148,7 @@ namespace Custom_Components
         private RJControls.RJButton rjButton2;
         private RJControls.RJButton rjButton3;
         private RJControls.RJButton rjButton4;
+        private RJControls.RJButton rjButton5;
     }
 }
 
