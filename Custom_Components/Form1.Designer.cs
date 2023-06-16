@@ -56,20 +56,20 @@ namespace Custom_Components
             // 
             // rjButton2
             // 
-            this.rjButton2.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.rjButton2.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
-            this.rjButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjButton2.BackColor = System.Drawing.SystemColors.Control;
+            this.rjButton2.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.rjButton2.BorderColor = System.Drawing.Color.DarkMagenta;
             this.rjButton2.BorderRadius = 40;
-            this.rjButton2.BorderSize = 0;
+            this.rjButton2.BorderSize = 1;
             this.rjButton2.FlatAppearance.BorderSize = 0;
             this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton2.ForeColor = System.Drawing.Color.White;
-            this.rjButton2.Location = new System.Drawing.Point(261, 162);
+            this.rjButton2.ForeColor = System.Drawing.Color.DarkMagenta;
+            this.rjButton2.Location = new System.Drawing.Point(406, 158);
             this.rjButton2.Name = "rjButton2";
-            this.rjButton2.Size = new System.Drawing.Size(155, 49);
+            this.rjButton2.Size = new System.Drawing.Size(109, 43);
             this.rjButton2.TabIndex = 1;
             this.rjButton2.Text = "rjButton2";
-            this.rjButton2.TextColor = System.Drawing.Color.White;
+            this.rjButton2.TextColor = System.Drawing.Color.DarkMagenta;
             this.rjButton2.UseVisualStyleBackColor = false;
             // 
             // rjButton3
@@ -92,20 +92,20 @@ namespace Custom_Components
             // 
             // rjButton4
             // 
-            this.rjButton4.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.rjButton4.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjButton4.BackColor = System.Drawing.SystemColors.Control;
+            this.rjButton4.BackgroundColor = System.Drawing.SystemColors.Control;
             this.rjButton4.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton4.BorderRadius = 40;
-            this.rjButton4.BorderSize = 0;
+            this.rjButton4.BorderRadius = 0;
+            this.rjButton4.BorderSize = 1;
             this.rjButton4.FlatAppearance.BorderSize = 0;
             this.rjButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton4.ForeColor = System.Drawing.Color.White;
-            this.rjButton4.Location = new System.Drawing.Point(261, 329);
+            this.rjButton4.ForeColor = System.Drawing.Color.PaleVioletRed;
+            this.rjButton4.Location = new System.Drawing.Point(165, 158);
             this.rjButton4.Name = "rjButton4";
             this.rjButton4.Size = new System.Drawing.Size(155, 49);
             this.rjButton4.TabIndex = 4;
             this.rjButton4.Text = "rjButton4";
-            this.rjButton4.TextColor = System.Drawing.Color.White;
+            this.rjButton4.TextColor = System.Drawing.Color.PaleVioletRed;
             this.rjButton4.UseVisualStyleBackColor = false;
             // 
             // rjButton5
@@ -118,9 +118,9 @@ namespace Custom_Components
             this.rjButton5.FlatAppearance.BorderSize = 0;
             this.rjButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rjButton5.ForeColor = System.Drawing.Color.White;
-            this.rjButton5.Location = new System.Drawing.Point(564, 193);
+            this.rjButton5.Location = new System.Drawing.Point(576, 176);
             this.rjButton5.Name = "rjButton5";
-            this.rjButton5.Size = new System.Drawing.Size(130, 102);
+            this.rjButton5.Size = new System.Drawing.Size(102, 96);
             this.rjButton5.TabIndex = 5;
             this.rjButton5.Text = "rjButton5";
             this.rjButton5.TextColor = System.Drawing.Color.White;
