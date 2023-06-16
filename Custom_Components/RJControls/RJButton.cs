@@ -92,6 +92,11 @@ namespace Custom_Components.RJControls
         }
          
         //Methods
+        private void Button_Resize(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         private GraphicsPath getFigurePath(RectangleF rect, float radius)
         {
             GraphicsPath path = new GraphicsPath();
