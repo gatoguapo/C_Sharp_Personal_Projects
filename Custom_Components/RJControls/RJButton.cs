@@ -94,7 +94,8 @@ namespace Custom_Components.RJControls
         //Methods
         private void Button_Resize(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            if (borderRadius > this.Height)
+                borderRadius = this.Height;
         }
 
         private GraphicsPath getFigurePath(RectangleF rect, float radius)
