@@ -1,0 +1,6 @@
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Button\bin\Release\Custom_Button.dll
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Button\bin\Release\Custom_Button.pdb
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Button\obj\Release\Custom_Button.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Button\obj\Release\Custom_Button.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Button\obj\Release\Custom_Button.dll
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Button\obj\Release\Custom_Button.pdb
