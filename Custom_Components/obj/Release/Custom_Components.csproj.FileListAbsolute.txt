@@ -1,0 +1,9 @@
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Components\bin\Release\Custom_Components.exe.config
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Components\bin\Release\Custom_Components.exe
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Components\bin\Release\Custom_Components.pdb
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Components\obj\Release\Custom_Components.Form1.resources
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Components\obj\Release\Custom_Components.Properties.Resources.resources
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Components\obj\Release\Custom_Components.csproj.GenerateResource.cache
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Components\obj\Release\Custom_Components.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Components\obj\Release\Custom_Components.exe
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Components\obj\Release\Custom_Components.pdb

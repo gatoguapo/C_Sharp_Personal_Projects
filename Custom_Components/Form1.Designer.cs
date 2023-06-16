@@ -64,9 +64,9 @@ namespace Custom_Components
             this.rjButton2.FlatAppearance.BorderSize = 0;
             this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rjButton2.ForeColor = System.Drawing.Color.DarkMagenta;
-            this.rjButton2.Location = new System.Drawing.Point(406, 158);
+            this.rjButton2.Location = new System.Drawing.Point(373, 158);
             this.rjButton2.Name = "rjButton2";
-            this.rjButton2.Size = new System.Drawing.Size(109, 43);
+            this.rjButton2.Size = new System.Drawing.Size(142, 43);
             this.rjButton2.TabIndex = 1;
             this.rjButton2.Text = "rjButton2";
             this.rjButton2.TextColor = System.Drawing.Color.DarkMagenta;
