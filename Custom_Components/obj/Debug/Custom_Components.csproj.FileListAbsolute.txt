@@ -7,3 +7,4 @@ C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Components\obj\De
 C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Components\obj\Debug\Custom_Components.csproj.CoreCompileInputs.cache
 C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Components\obj\Debug\Custom_Components.exe
 C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Components\obj\Debug\Custom_Components.pdb
+C:\Users\victo\OneDrive\Desktop\Proyectos Personales C#\Custom_Components\obj\Debug\Custom_Components.Form1.resources
