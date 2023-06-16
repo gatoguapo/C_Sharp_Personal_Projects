@@ -2,6 +2,7 @@
 using System.Windows.Forms;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.ComponentModel;
 
 namespace Custom_Components.RJControls
 {
@@ -12,6 +13,7 @@ namespace Custom_Components.RJControls
         private int borderRadius = 40;
         private Color borderColor = Color.PaleVioletRed;
 
+        [Category("RJ Code Advance")]
         public Color BackgroundColor
         {
             get
@@ -24,6 +26,7 @@ namespace Custom_Components.RJControls
             }
         }
 
+        [Category("RJ Code Advance")]
         public Color TextColor
         {
             get
@@ -36,6 +39,7 @@ namespace Custom_Components.RJControls
             }
         }
 
+        [Category("RJ Code Advance")]
         public int BorderSize 
         {
             get 
@@ -48,6 +52,8 @@ namespace Custom_Components.RJControls
                 this.Invalidate();
             }
         }
+
+        [Category("RJ Code Advance")]
         public int BorderRadius 
         {
             get
@@ -60,6 +66,8 @@ namespace Custom_Components.RJControls
                 this.Invalidate();
             }
         }
+
+        [Category("RJ Code Advance")]
         public Color BorderColor 
         {
             get
